@@ -19,7 +19,7 @@ describe('sugo-interface-noop', () => {
 
   }))
 
-  it('Sugo demo interface', () => co(function * () {
+  it('Check spec', () => co(function * () {
     let interface_ = sugoInterfaceNoop({})
     assert.ok(interface_)
 
@@ -28,7 +28,7 @@ describe('sugo-interface-noop', () => {
     assert.ok(!specError)
   }))
 
-  it('Ping/Pong', () => co(function * () {
+  it('Take ping-pong', () => co(function * () {
     let interface_ = sugoInterfaceNoop({})
     let pong = yield interface_.ping({ params: [] })
     assert.ok(pong)

@@ -20,5 +20,5 @@ co(function * () {
   let pong = yield noop.ping()
   assert.ok(pong)
 
-  // Just ping-pong, nothing more
+// Just ping-pong, nothing more
 }).catch((err) => console.error(err))

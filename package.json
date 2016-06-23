@@ -1,6 +1,6 @@
 {
   "name": "sugo-interface-noop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NOOP interface plugin of SUGOS",
   "main": "lib",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sugo-interface-noop#readme",
   "dependencies": {
+    "apemansleep": "^1.0.3",
     "co": "^4.6.0",
     "debug": "^2.2.0"
   },
@@ -39,7 +40,7 @@
     "coz": "^6.0.2",
     "injectmock": "^2.0.0",
     "sg-schemas": "^1.1.3",
-    "sg-validator": "^1.0.0"
+    "sg-validator": "^1.0.1"
   },
   "engines": {
     "node": ">=6",

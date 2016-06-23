@@ -1,4 +1,4 @@
 
-Noop (No-Operation) interface is stub interface for testing purpose. 
+This is stub interface for testing purpose. ("noop" stands for "No-Operation") 
 
-It has only ping method to chech the connection.
+It has only ping method to check the connection.

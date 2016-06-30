@@ -1,6 +1,6 @@
 {
   "name": "sugo-interface-noop",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NOOP interface plugin of SUGOS",
   "main": "lib",
   "scripts": {
@@ -26,18 +26,19 @@
   "dependencies": {
     "apemansleep": "^1.0.3",
     "co": "^4.6.0",
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "sg-check": "^1.0.0"
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
     "ape-formatting": "^1.0.0",
-    "ape-releasing": "^3.1.1",
+    "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
-    "ape-tasking": "^4.0.1",
+    "ape-tasking": "^4.0.3",
     "ape-testing": "^4.0.0",
-    "ape-tmpl": "^5.0.2",
-    "ape-updating": "^3.0.2",
-    "coz": "^6.0.2",
+    "ape-tmpl": "^5.0.11",
+    "ape-updating": "^4.0.2",
+    "coz": "^6.0.3",
     "injectmock": "^2.0.0",
     "sg-schemas": "^1.1.3",
     "sg-validator": "^1.0.1"

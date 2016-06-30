@@ -33,6 +33,17 @@ describe('sugo-interface-noop', () => {
     let pong = yield interface_.ping({ params: [] })
     assert.ok(pong)
   }))
+
+  it('Do assert', () => co(function * () {
+    let interface_ = sugoInterfaceNoop({})
+    let caught
+    try {
+      yield interface_.assert({})
+    } catch (err) {
+      caught = err
+    }
+    assert.ok(!caught)
+  }))
 })
 
 /* global describe, before, after, it */

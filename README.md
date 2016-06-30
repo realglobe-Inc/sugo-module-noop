@@ -44,9 +44,9 @@ NOOP interface plugin of SUGOS
 <a name="overview"></a>
 
 
-This is stub interface for testing purpose. ("noop" stands for "No-Operation") 
+This is a stub interface for testing purpose. ("noop" stands for "No-Operation") 
 
-It has only ping method to check the connection.
+It has only few basic methods.
 
 
 <!-- Overview End -->
@@ -148,6 +148,12 @@ Test the reachability of a interface.
 | ----- | ---- | ----------- |
 | pong  | <code>string</code> | Pong message to return |
 
+<a name="assert"></a>
+### assert() -> <code>boolean</code>
+
+Test if the spot fulfills system requirements
+
+
 
 <!-- Section from "doc/guides/03.Methods.md.hbs" End -->
 
@@ -171,6 +177,8 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
-+ [SUGOS](https://github.com/realglobe-Inc/sugos)
++ [SUGOS][sugos_url]
+
+[sugos_url]: https://github.com/realglobe-Inc/sugos
 
 <!-- Links End -->

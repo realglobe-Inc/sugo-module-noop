@@ -101,7 +101,7 @@ co(function * () {
 
 ```
 
-Then, call the interface from remote url.
+Then, call the interface from remote terminal.
 
 ```javascript
 #!/usr/bin/env node
@@ -139,8 +139,13 @@ co(function * () {
 Methods
 ---------
 
-<a name="ping"></a>
-### ping(pong) -> <code>string</code>
+The following methods are available from remote terminals for the interface.
+
++ [.ping(pong) -> string](#method-ping)
++ [.assert() -> boolean](#method-assert)
+
+<a name="method-ping"></a>
+### .ping(pong) -> <code>string</code>
 
 Test the reachability of a interface.
 
@@ -148,8 +153,8 @@ Test the reachability of a interface.
 | ----- | ---- | ----------- |
 | pong  | <code>string</code> | Pong message to return |
 
-<a name="assert"></a>
-### assert() -> <code>boolean</code>
+<a name="method-assert"></a>
+### .assert() -> <code>boolean</code>
 
 Test if the spot fulfills system requirements
 

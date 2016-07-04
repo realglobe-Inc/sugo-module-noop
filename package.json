@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sugo-interface-noop#readme",
   "dependencies": {
-    "apemansleep": "^1.0.3",
+    "asleep": "^1.0.3",
     "co": "^4.6.0",
     "debug": "^2.2.0",
-    "sg-check": "^1.0.0"
+    "sg-check": "^1.0.1"
   },
   "devDependencies": {
     "ape-tmpl": "^5.0.11",
@@ -36,7 +36,7 @@
     "sg-schemas": "^1.1.3",
     "sg-validator": "^1.0.1",
     "sugos-assets": "^1.1.5",
-    "sugos-ci": "^1.4.4"
+    "sugos-ci": "^1.4.6"
   },
   "engines": {
     "node": ">=6",

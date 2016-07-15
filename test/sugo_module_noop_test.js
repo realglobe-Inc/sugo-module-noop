@@ -30,7 +30,7 @@ describe('sugo-moduel-noop', () => {
 
   it('Take ping-pong', () => co(function * () {
     let module = sugoModuleNoop({})
-    let pong = yield module.ping({ params: [] })
+    let pong = yield module.ping()
     assert.ok(pong)
   }))
 

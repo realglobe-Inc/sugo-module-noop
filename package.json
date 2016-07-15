@@ -27,10 +27,10 @@
     "asleep": "^1.0.3",
     "co": "^4.6.0",
     "debug": "^2.2.0",
-    "sg-check": "^1.0.2"
+    "sg-check": "^1.0.3"
   },
   "devDependencies": {
-    "ape-tmpl": "^5.0.11",
+    "ape-tmpl": "^5.0.13",
     "coz": "^6.0.3",
     "injectmock": "^2.0.0",
     "sg-schemas": "^2.0.4",

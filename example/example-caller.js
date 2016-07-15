@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Example control from remote caller
+ * Example control from caller
  */
 'use strict'
 

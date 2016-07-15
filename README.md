@@ -58,6 +58,7 @@ It has only few basic methods.
 <!-- Section from "doc/guides/01.Installation.md.hbs" Start -->
 
 <a name="section-doc-guides-01-installation-md"></a>
+
 Installation
 -----
 
@@ -71,6 +72,7 @@ $ npm install sugo-moduel-noop --save
 <!-- Section from "doc/guides/02.Usage.md.hbs" Start -->
 
 <a name="section-doc-guides-02-usage-md"></a>
+
 Usage
 ---------
 
@@ -107,7 +109,7 @@ Then, call the module from a remote caller.
 #!/usr/bin/env node
 
 /**
- * Example control from remote caller
+ * Example control from caller
  */
 'use strict'
 
@@ -136,6 +138,7 @@ co(function * () {
 <!-- Section from "doc/guides/03.Methods.md.hbs" Start -->
 
 <a name="section-doc-guides-03-methods-md"></a>
+
 Methods
 ---------
 

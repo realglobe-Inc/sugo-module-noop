@@ -5,12 +5,12 @@
 
 'use strict'
 
-const sugoInterfaceNoop = require('./sugo_interface_noop')
+const sugoModuleNoop = require('./sugo_module_noop')
 
-let lib = sugoInterfaceNoop.bind(this)
+let lib = sugoModuleNoop.bind(this)
 
-Object.assign(lib, sugoInterfaceNoop, {
-  sugoInterfaceNoop
+Object.assign(lib, sugoModuleNoop, {
+  sugoModuleNoop
 })
 
 module.exports = lib

@@ -1,16 +1,16 @@
 {
-  "name": "sugo-interface-noop",
-  "version": "1.0.7",
+  "name": "sugo-moduel-noop",
+  "version": "2.0.0",
   "description": "NOOP interface plugin of SUGOS",
   "main": "lib",
   "scripts": {
     "prepublish": "./ci/build.js",
     "test": "./ci/test.js"
   },
-  "repository": "realglobe-Inc/sugo-interface-noop",
+  "repository": "realglobe-Inc/sugo-moduel-noop",
   "keywords": [
     "SUGOS",
-    "interface",
+    "module",
     "noop"
   ],
   "author": {
@@ -20,9 +20,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/realglobe-Inc/sugo-interface-noop/issues"
+    "url": "https://github.com/realglobe-Inc/sugo-moduel-noop/issues"
   },
-  "homepage": "https://github.com/realglobe-Inc/sugo-interface-noop#readme",
+  "homepage": "https://github.com/realglobe-Inc/sugo-moduel-noop#readme",
   "dependencies": {
     "asleep": "^1.0.3",
     "co": "^4.6.0",
@@ -33,10 +33,10 @@
     "ape-tmpl": "^5.0.11",
     "coz": "^6.0.3",
     "injectmock": "^2.0.0",
-    "sg-schemas": "^1.1.3",
+    "sg-schemas": "^2.0.4",
     "sg-validator": "^1.0.1",
-    "sugo-ci-interface": "^1.0.0",
-    "sugos-assets": "^1.1.9"
+    "sugo-ci-module": "^2.0.1",
+    "sugos-assets": "^2.0.1"
   },
   "engines": {
     "node": ">=6",

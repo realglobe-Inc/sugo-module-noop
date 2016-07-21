@@ -1,6 +1,6 @@
 {
-  "name": "sugo-moduel-noop",
-  "version": "3.0.1",
+  "name": "sugo-module-noop",
+  "version": "3.0.2",
   "description": "NOOP interface plugin of SUGOS",
   "main": "lib",
   "scripts": {

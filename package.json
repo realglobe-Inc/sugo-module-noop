@@ -1,11 +1,12 @@
 {
   "name": "sugo-module-noop",
-  "version": "3.0.4",
+  "version": "4.0.0",
   "description": "NOOP interface plugin of SUGOS",
   "main": "lib",
+  "browser": "shim/browser",
   "scripts": {
-    "prepublish": "./ci/build.js",
-    "test": "./ci/test.js"
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js && ./ci/browser.js"
   },
   "repository": "realglobe-Inc/sugo-moduel-noop",
   "keywords": [
@@ -27,15 +28,17 @@
     "asleep": "^1.0.3",
     "co": "^4.6.0",
     "debug": "^2.2.0",
-    "sg-check": "^1.0.3"
+    "sg-check": "^1.0.6",
+    "sugo-module-base": "^1.0.5"
   },
   "devDependencies": {
     "ape-tmpl": "^5.0.14",
     "coz": "^6.0.14",
     "injectmock": "^2.0.0",
     "sg-schemas": "^2.0.4",
+    "sg-templates": "^1.0.3",
     "sg-validator": "^1.0.1",
-    "sugo-ci-module": "^2.0.1",
+    "sugo-ci-module": "^2.0.5",
     "sugos-assets": "^2.0.1"
   },
   "engines": {

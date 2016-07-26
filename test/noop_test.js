@@ -1,10 +1,10 @@
 /**
- * Test case for sugoModuleNoop.
+ * Test case for Noop.
  * Runs with mocha.
  */
 'use strict'
 
-const sugoModuleNoop = require('../lib/sugo_module_noop.js')
+const Noop = require('../lib/noop.js')
 const assert = require('assert')
 const sgSchemas = require('sg-schemas')
 const sgValidator = require('sg-validator')
@@ -20,7 +20,7 @@ describe('sugo-moduel-noop', () => {
   }))
 
   it('Check spec', () => co(function * () {
-    let module = sugoModuleNoop({})
+    let module = new Noop({})
     assert.ok(module)
 
     let { $spec } = module
@@ -29,13 +29,13 @@ describe('sugo-moduel-noop', () => {
   }))
 
   it('Take ping-pong', () => co(function * () {
-    let module = sugoModuleNoop({})
+    let module = new Noop({})
     let pong = yield module.ping()
     assert.ok(pong)
   }))
 
   it('Do assert', () => co(function * () {
-    let module = sugoModuleNoop({})
+    let module = new Noop({})
     let caught
     try {
       yield module.assert({})
@@ -46,9 +46,11 @@ describe('sugo-moduel-noop', () => {
   }))
 
   it('Compare methods with spec', () => co(function * () {
-    let module = sugoModuleNoop({})
+    let module = new Noop({})
     let { $spec } = module
-    let implemented = Object.keys(module).filter((name) => !/^[\$_]/.test(name))
+    let implemented = Object.getOwnPropertyNames(Noop.prototype)
+      .filter((name) => !/^[\$_]/.test(name))
+      .filter((name) => !~[ 'constructor' ].indexOf(name))
     let described = Object.keys($spec.methods).filter((name) => !/^[\$_]/.test(name))
     for (let name of implemented) {
       assert.ok(!!~described.indexOf(name), `${name} method should be described in spec`)

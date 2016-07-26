@@ -82,7 +82,8 @@ Register a module to actor.
 #!/usr/bin/env node
 
 /**
- * Example usage of the caller
+ * Example usage to register module on actor
+ * @see https://github.com/realglobe-Inc/sugo-actor
  */
 'use strict'
 
@@ -109,7 +110,8 @@ Then, call the module from a remote caller.
 #!/usr/bin/env node
 
 /**
- * Example control from caller
+ * Example to call from caller
+ * @see https://github.com/realglobe-Inc/sugo-caller
  */
 'use strict'
 

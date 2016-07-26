@@ -1,6 +1,6 @@
 {
   "name": "sugo-module-noop",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "NOOP interface plugin of SUGOS",
   "main": "lib",
   "browser": "shim/browser",
